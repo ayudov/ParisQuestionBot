@@ -1,0 +1,2 @@
+TOKEN = '896749337:AAGDgc282E1EBqxM7db2Xj3zGCz3HCWSIGE'
+APP_NAME = 'Paris live question'
