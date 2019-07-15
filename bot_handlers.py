@@ -9,7 +9,6 @@ def send_welcome(message):
                      "анонимно.\nТакже, прежде чем написать вопрос, проверь, нет ли на него уже ответа.",
                      parse_mode='HTML')
     bot.send_message(message.chat.id, "С ботом начал общение: \n@" + message.from_user.username)
-    print(message)
 
 
 @bot.message_handler(commands=['channellink'])
