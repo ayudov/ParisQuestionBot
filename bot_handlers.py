@@ -8,7 +8,7 @@ def send_welcome(message):
                      "<a href='https://t.me/parislive61'>канале</a> в ближайшее время.\nВсе ответы публикуются "
                      "анонимно.\nТакже, прежде чем написать вопрос, проверь, нет ли на него уже ответа.",
                      parse_mode='HTML')
-    bot.send_message(message.chat.id, "С ботом начал общение: \n@" + message.from_user.username)
+    bot.send_message("252048575", "С ботом начал общение: \n@" + message.from_user.username)
 
 
 @bot.message_handler(commands=['channellink'])
