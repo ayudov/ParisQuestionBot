@@ -1,2 +1,7 @@
-TOKEN = '896749337:AAGDgc282E1EBqxM7db2Xj3zGCz3HCWSIGE'
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+TOKEN = os.getenv('TOKEN')
+print('your TOKEN:' + TOKEN)
 APP_NAME = 'parislivebot'
